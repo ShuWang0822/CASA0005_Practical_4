@@ -55,16 +55,17 @@ clone（复制）一个（自己的）repo，在本地文件夹中拥有一个�
 ```
 
 从GitHub拉出来想要的文件
-- 点击右上角的Git框里的Pull按钮（蓝色箭头） > Push成功后Close，去到GitHub页面刷新就能看到新上传的文件了
+- 点击右上角的Git框里的Pull按钮（蓝色箭头） > Pull成功后Close，Rstudio里显示的就是最新版上传的文件了
 ```{r, include=True, echo=TRUE}
 ```
 
-
+Branches: 创建新branch来隔离特定工作领域的开发，而不会影响其他branch
+- 在GitHub网页上左上角main branch旁边输入新的branch名字create a new branch 
 ```{r, include=True, echo=TRUE}
-
 ```
 
-
+Pull request to the main branch
+- 点击用户名下面的pull requests > 选择绿色按键New Pull Request > 从Compare changes选项里把两个branch做比较 > 选择绿色按键Create Pull Request
 ```{r, include=True, echo=TRUE}
 
 ```
