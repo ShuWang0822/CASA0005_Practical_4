@@ -76,22 +76,11 @@ Pull request to the main branch：把一个branch里的内容更新到另一个b
 ```{r, include=True, echo=TRUE}
 ```
 
-
+测试粘贴
 ```{r, include=True, echo=TRUE}
-
-```
-
-
-```{r, include=True, echo=TRUE}
-
-```
-
-
-```{r, include=True, echo=TRUE}
-
-```
-
-
-```{r, include=True, echo=TRUE}
-
+library(terra)
+library(here)
+jan<-terra::rast(here("wc2.1_5m_tavg_01.tif"))
+# have a look at the raster layer jan
+plot(jan)
 ```
