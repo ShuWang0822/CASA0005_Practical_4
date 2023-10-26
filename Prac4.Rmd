@@ -64,15 +64,16 @@ Branches: 创建新branch来隔离特定工作领域的开发，而不会影响�
 ```{r, include=True, echo=TRUE}
 ```
 
-Pull request to the main branch
-- 点击用户名下面的pull requests > 选择绿色按键New Pull Request > 从Compare changes选项里把两个branch做比较 > 选择绿色按键Create Pull Request
+Pull request to the main branch：把一个branch里的内容更新到另一个branch里
+- 点击用户名下面的pull requests > 选择绿色按键New Pull Request > 从Compare changes选项里把两个branch做比较 > 选择绿色按键Create Pull Request > squash and merge > confirm squash and merge
 ```{r, include=True, echo=TRUE}
-
 ```
 
-
+三个在Console里面run的code（可以不用）
+- git add .暂存所有文件（保存）
+- git commit -m "commit comment"提交所有暂存文件（commit）
+- git push将提交的文件推送到远程（push）
 ```{r, include=True, echo=TRUE}
-
 ```
 
 
