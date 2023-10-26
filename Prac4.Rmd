@@ -55,7 +55,7 @@ clone（复制）一个（自己的）repo，在本地文件夹中拥有一个�
 ```
 
 从GitHub拉出来想要的文件
-- 进入GitHub网页，点开要编辑的文件点右上角编辑按钮（小铅笔）> commit
+- 点击右上角的Git框里的Pull按钮（蓝色箭头） > Push成功后Close，去到GitHub页面刷新就能看到新上传的文件了
 ```{r, include=True, echo=TRUE}
 ```
 
