@@ -47,14 +47,14 @@ clone（复制）一个（自己的）repo，在本地文件夹中拥有一个�
 
 储存进本地Git
 
-- 先保存文件
+- 先保存文件(save all units)
 - 再点击右上角的Git框 > 点下面commit > 把所有commit的文件都勾选上，编辑update信息 > Commit
 ```{r, include=True, echo=TRUE}
 ```
 
 推送进GitHub
 
-在Console中输入 usethis package的 use_github() 功能
+
 ```{r, include=True, echo=TRUE}
 
 ```
