@@ -50,7 +50,7 @@ clone（复制）一个（自己的）repo，在本地文件夹中拥有一个�
 - 再点击右上角的Git框 > 点下面commit > 把所有commit的文件都勾选上，编辑update信息 > Commit
 
 推送进GitHub
-- 点击右上角的Git框里的Push按钮（绿色箭头）
+- 点击右上角的Git框里的Push按钮（绿色箭头） > Push成功后Close，去到GitHub页面刷新就能看到新上传的文件了
 ```{r, include=True, echo=TRUE}
 ```
 
