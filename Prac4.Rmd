@@ -1,0 +1,95 @@
+Check Git is installed
+
+点击Console旁边的Terminal
+输入 which git 查看git储存路径
+输入 git --version 查看git版本
+```{r, include=True, echo=TRUE}
+# which git
+# git --version
+```
+
+Configure your Git
+
+用 usethis package来设置用户基本信息(包括install.packages和library)
+然后点击Console输入 edit_git_config() 并在.gitconfig文件中输入个人Github信息
+[user]
+    name = 
+    email = 
+    username = 
+```{r, include=True, echo=TRUE}
+install.packages("usethis")
+library(usethis)
+```
+
+如果要让别人access自己的private repo，需要一个token：在Console里用 usethis package，输入 create_github_token() 或者 GitHub > settings > Developer settings > personal access tokens > generate new token
+
+如果要储存token，用 gitcreds package（包括install.packages和library）里的 gitcreds_set() 功能来录入token
+
+```{r, include=True, echo=TRUE}
+install.packages("gitcreds")
+library(gitcreds)
+```
+
+clone（复制）一个（自己的）repo，在本地文件夹中拥有一个相同的副本（2种方法）
+
+方法一：（还没有r project）
+- 把新建的repo URL复制下来
+- 打开RStudio > File New Project > Version Control > Git > 把刚才的repo URL粘贴进去，并输入一个project directory name
+```{r, include=True, echo=TRUE}
+```
+
+方法二：（已经有了r project）
+- 打开RStudio和r project > Tools > Global Options > 在Git/SVN下enable version control打勾
+- Tools > Project Options > Git/SVN > 把version control system选成Git
+- 现在看到文件都出现在右上角的Git框里
+```{r, include=True, echo=TRUE}
+```
+
+储存进本地Git
+
+- 先保存文件
+- 再点击右上角的Git框 > 点下面commit > 把所有commit的文件都勾选上，编辑update信息 > Commit
+```{r, include=True, echo=TRUE}
+```
+
+推送进GitHub
+
+在Console中输入 usethis package的 use_github() 功能
+```{r, include=True, echo=TRUE}
+
+```
+
+
+```{r, include=True, echo=TRUE}
+
+```
+
+
+```{r, include=True, echo=TRUE}
+
+```
+
+
+```{r, include=True, echo=TRUE}
+
+```
+
+
+```{r, include=True, echo=TRUE}
+
+```
+
+
+```{r, include=True, echo=TRUE}
+
+```
+
+
+```{r, include=True, echo=TRUE}
+
+```
+
+
+```{r, include=True, echo=TRUE}
+
+```
